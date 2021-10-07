@@ -1,0 +1,257 @@
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+h1{
+    color: rgb(10, 4, 59);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 30px;
+}
+
+h2{
+    color: rgb(40, 100, 212);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 30px;
+}
+
+h3{
+    color: rgba(112, 12, 79, 0.877);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 30px;
+}
+
+p{
+    font-size: 17px;
+    text-indent: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align : justify;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    float: left;
+    width: 68%;
+    height: 100%;
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+}
+
+.footer{
+    margin: 20px 30px;
+    height: 100px;
+}
+
+.benphai{
+    font-size: 20px;
+    float: right;
+    width: 65%;
+    height: 100%;
+    text-indent: 20px;
+    text-align : justify;
+}
+
+.bentrai{
+    font-size: 20px;
+    float: left;
+    width: 65%;
+    height: 100%;
+    text-indent: 40px;
+    text-align : justify;
+}
+
+.anhtrai{
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.anhphai{
+    font-size: 20px;
+    font-weight: 700;
+    float: right;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.quocky{
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.quochuy{
+    font-size: 20px;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.ten{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 750;
+    text-align: center;
+    background: #93fd85;
+    margin: 20px 30px;
+}
+
+.bieungu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.ogiua{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.vietnam{
+    color: red;
+    font-size:45px;
+    font-weight: 2000;
+    margin: 20px 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a:hover{
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+
+ul li{ list-style: none;}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body{ 
+    font-family: arial; 
+    font-size: 13px; 
+}
+
+.wrapper_container{
+    width: 960px;
+    margin: 0px auto;
+}
+
+/*this is style header*/
+#head{ background: #f4f4f4;}
+#logo, #main_menu{ float: left;}
+#logo img{height: 42px;
+margin-top: 5px;}
+#search{ float: right;}
+
+#main_menu>li{ float: left; border-right: 1px solid #E8E8E8;}
+#main_menu>li:last-child{ border-right: none;}
+#main_menu li{ position: relative;}
+#main_menu>li a{display: block; text-transform: none; padding: 10px;}
+#main_menu>li>a{ text-transform: uppercase;}
+#main_menu>li>a{ display: block; padding: 20px;}
+
+#main_menu li .sub_menu{ position: absolute; display: none;
+width: 300px;
+background: #f5f5f5;
+top: 0px;
+left: 100%;
+}
+#main_menu li:hover>.sub_menu { display: block;}
+#main_menu>li>.sub_menu{top: 55px;position: absolute;
+left: 0px;}
+#main_menu li:hover{ background: #fcfcfc;}
+
+#search input[type='text']{width: 139px;
+margin-top: 14px;
+padding: 5px;
+outline: none;
+background: #EFEFEF;
+background: url(../images/search.png) no-repeat 106px 2px;
+border: none;
+background-size: 28px;}
+
+
+/*this is style main_content*/
+#main_content { min-height: 450px;}
+#main_content .info_page p{ text-align: center; text-transform: uppercase; }
+#main_content .info_page p:first-child{ font-size: 35px;
+color: #f00;
+margin-top: 40px;
+margin-bottom: 7px;}
+#main_content .info_page p:last-child{ color: #E48585;}
+
+
+/*this is style footer*/
+#footer{  background: #f9f9f9;
+padding: 20px 0px;
+color: #A6A6A6;
+line-height: 20px;
+}
+#footer .info p:first-child{ text-transform: uppercase;}
